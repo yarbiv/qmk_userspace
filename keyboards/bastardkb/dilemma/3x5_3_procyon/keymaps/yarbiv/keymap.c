@@ -17,6 +17,11 @@
 
 #include "yoavarbiv.h"
 
+tap_dance_action_t tap_dance_actions[] = {
+	[QC_Q] = ACTION_TAP_DANCE_DOUBLE(KC_Q, KC_ESC),
+	[SWAP] = ACTION_TAP_DANCE_FN_ADVANCED(NULL, swap_finished, swap_reset)
+};
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 	[_COLEMAK] = LAYOUT_split_3x5_3(
 //	  		-------------------------------------------------			-------------------------------------------------

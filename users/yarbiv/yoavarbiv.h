@@ -92,3 +92,5 @@ typedef struct {
 #define QC_XBOX LGUI(KC_G)
 
 td_state_t cur_dance(tap_dance_state_t *state);
+void swap_finished(tap_dance_state_t *state, void *user_data);
+void swap_reset(tap_dance_state_t *state, void *user_data);
