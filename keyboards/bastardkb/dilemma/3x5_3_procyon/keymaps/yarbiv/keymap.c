@@ -83,7 +83,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 //	  		-------------------------------------------------			-------------------------------------------------
 			XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,             XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,
 //	  		-------------------------------------------------			-------------------------------------------------
-			XXXXXX,   XXXXXX,   MS_BTN2,  MS_BTN1,  XXXXXX,             XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,
+			XXXXXX,   XXXXXX,   MS_BTN2,  MS_BTN1,  XXXXXX,             XXXXXX,   DRG_TOG,  DPI_MOD,  DPI_RMOD,   XXXXXX,
 //	  		-------------------------------------------------			-------------------------------------------------
 			XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,             XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,   XXXXXX,
 //	  		-------------------------------------------------			-------------------------------------------------
